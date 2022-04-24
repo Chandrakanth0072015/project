@@ -1,0 +1,8 @@
+from queue import PriorityQueue
+
+
+n =int(input())
+
+for i in range(0,n):
+    print(" "*i,end=" ")
+    print("*"*(n-i))
